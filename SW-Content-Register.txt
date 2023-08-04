@@ -1,0 +1,91 @@
+Release Name: an-mipi-dsi-screen-pushing-rt500
+Release Version: 1.0
+Package License: LA_OPT_NXP_Software_License v48 July 2023- Additional Distribution License granted, license in Section 2.3 applies
+License File: LICENSE.txt
+Description: This application code is to illustrate graphics drawing methods and performance comparisons under different conditions based on i.MX RT595.
+Release Location: https://github.com/nxp-appcodehub/an-mipi-dsi-screen-pushing-rt500
+Origin: NXP
+                                                 
+SDK_Peripheral_Driver      Name: SDK Peripheral Driver                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: Complex graphics drawing/drivers/, Simple graphics drawing/drivers/               
+                           Origin: NXP (BSD-3-Clause)                        
+
+SDK_Device                 Name: SDK SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code, linker files                 
+                           Description: Device system files, template files, 
+                           IDE related startup and linker files.             
+                           Location: Complex graphics drawing/device/, Simple graphics drawing/device/                       
+                           Origin: NXP (BSD-3-Clause)                        
+
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: Complex graphics drawing/component/, Simple graphics drawing/component/                             
+                           Origin: NXP (BSD-3-Clause), ITE (BSD-3-Clause)    
+                
+CMSIS                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: Complex graphics drawing/CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: Complex graphics drawing/CMSIS/, Simple graphics drawing/CMSIS/                                 
+                           Origin: NXP (Apache License 2.0)  
+                                                                                                                                                  
+freertos-kernel            Name: FreeRTOS kernel                             
+                           Version: 10.5.1                                   
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           Complex graphics drawing/freertos/freertos_kernel/LICENSE.md          
+                           Format: source code                               
+                           Description: Open source RTOS kernel for small    
+                           devices                                           
+                           Location: Complex graphics drawing/freertos/freertos_kernel, Simple graphics drawing/freertos/freertos_kernel           
+                           Origin: Amazon (MIT)                              
+                           Url: https://github.com/FreeRTOS/FreeRTOS-Kernel  
+
+vglite                     Name: vglite                                      
+                           Version: 3.0.15_rev7                              
+                           Outgoing License: MIT                             
+                           License File: Complex graphics drawing/vglite/LICENSE.txt       
+                           Format: source code                               
+                           Description: VeriSilicon's platform independent   
+                           VGLite Graphics library                           
+                           Location: Complex graphics drawing/vglite, Simple graphics drawing/vglite                       
+                           Origin: VeriSilicon (MIT), Raph Levien, Nicolas   
+                           Silva (Apache-2.0)                                
+                           Url: http://www.verisilicon.com/,                 
+                           https://github.com/linebender/kurbo
+
+vglite_mcufont             Name: mcufont                                     
+                           Version: 1.0                                      
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           Complex graphics drawing/vglite/font/mcufont/LICENSE            
+                           Format: source code                               
+                           Description: Font rendering library for           
+                           microcontrollers                                  
+                           Location: Complex graphics drawing/vglite/font/mcufont, Simple graphics drawing/vglite/font/mcufont          
+                           Origin: Petteri Aimonen                           
+                           (https://github.com/PetteriAimonen)               
+                           Url: https://github.com/mcufont/mcufont 
+
+
+
