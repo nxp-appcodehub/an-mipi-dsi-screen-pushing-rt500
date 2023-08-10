@@ -1,6 +1,6 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-mipi-dsi-screen-pushing-rt500" type="app_note" format="projectfile" name="an-mipi-dsi-screen-pushing-rt500">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-mipi-dsi-screen-pushing-rt500" type="app_note" format="projectfile" name="mipi-dsi-screen-pushing-rt500">
     <overview>
-        <![CDATA[i.MXRT595 is a dual-core microcontroller combined a graphics engine and a streamlined Cadence® Tensilica® Fusion F1 DSP core with Arm® Cortex®- M33 core. It offers an embedded solution for smart watch or other display device due to the role of GPU.Power consumption and frame rate are the considerations for performance evaluation during pushing screen. These two points are affected by many factors, such as the number and location of frame buffer and complexity of graphics. This document illustrates graphics drawing methods and performance comparisons under different conditions.<br />Please refer to AN13509 for complete instructions on how to use this software.<br /><a href="https://www.nxp.com.cn/docs/en/application-note/AN13509.pdf">Analysis of screen pushing scene based on i.MXRT595 MIPI DSI Controller (nxp.com.cn)</a><br />]]>
+        <![CDATA[This application code is to illustrate graphics drawing methods and performance comparisons under different conditions based on i.MX RT595.]]>
     </overview>
     <toolchains>
         <toolchain name="mcux"></toolchain>
