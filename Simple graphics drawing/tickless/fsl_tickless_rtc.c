@@ -26,7 +26,7 @@
 #endif
 
 #include "fsl_tickless_rtc.h"
-
+#include "fsl_mipi_dsi.h"
 
 
 #define DSI_OFF

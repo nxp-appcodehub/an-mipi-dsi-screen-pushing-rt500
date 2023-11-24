@@ -71,13 +71,13 @@
     <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
     <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="gdb"/>
     <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
-    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\evkmimxrt595_simple graphics drawing.axf"/>
-    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="evkmimxrt595_simple graphics drawing"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\evkmimxrt595_simple_graphics_drawing.axf"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="evkmimxrt595_simple_graphics_drawing"/>
     <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
     <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.crt.advproject.config.exe.debug.1515205440"/>
     <booleanAttribute key="org.eclipse.cdt.launch.use_terminal" value="false"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/evkmimxrt595_simple graphics drawing"/>
+        <listEntry value="/evkmimxrt595_simple_graphics_drawing"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="4"/>

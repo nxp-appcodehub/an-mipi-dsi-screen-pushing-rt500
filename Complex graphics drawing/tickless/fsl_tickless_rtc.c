@@ -26,6 +26,7 @@
 #endif
 
 #include "fsl_tickless_rtc.h"
+#include "fsl_mipi_dsi.h"
 
 
 # define APP_BUFFER_COUNT  2

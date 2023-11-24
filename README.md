@@ -10,10 +10,7 @@ i.MXRT595 is a dual-core microcontroller combined a graphics engine and a stream
 Power consumption and frame rate are the considerations for performance evaluation during pushing screen. These two points are affected by many factors, such as the number and location of frame buffer and complexity of graphics. This document illustrates graphics drawing methods and performance comparisons under different conditions.<br />
 
 
-<p align="center">
-	<img width="765" height="416" src="images/Overall connection.png">
-</p>
-
+![](images/Overall%20connection.png)
 
 This document briefly describes the principle of drawing using GPU and MIPI DSI, and measures the power consumption and frame rate of drawing and pushing screens under different conditions.<br />
 
@@ -40,19 +37,15 @@ Software version:
 
 ## 2. Hardware<a name="step2"></a>
 - Micro USB cable
-- EVK-MIMXRT595 SCH-45800 REV D1 board
+- EVK-MIMXRT595 SCH-45800 REV D1 board（ https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt595-evaluation-kit:MIMXRT595-EVK ）
 - Personal Computer
-- RM67162 smart MIPI panel
+- G1120B0MIPI smart MIPI panel（ https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/1-2-wearable-display-g1120b0mipi:G1120B0MIPI ）
 
 <p align="center">
 	<img src="https://www.nxp.com/assets/images/en/dev-board-image/I.MXRT595EVK-FRONT.jpg">
 </p>
 
-
-<p align="center">
-	<img width="639" height="340" src="images/Hardware connection.png">
-</p>
-
+![](images/Hardware%20connection.png)
 
 ## 3. Setup<a name="step3"></a>
 1. Connect MIPI panel to J44.
@@ -72,15 +65,10 @@ There are two kinds of graphics to display. One is a tiger and the other is a cl
 For power observation points, the 4.3 section in AN13509 gives the detailed description,please refer to it.<br />
 
 Bekow are the simple graphics and complex graphics examples.
-<p align="center">
-	<img width="" height="340" src="images/simple graphics.jpg">
-</p>
 
+![](images/simple%20graphics.jpg)
 
-<p align="center">
-	<img width="" height="340" src="images/complex graphics.png">
-</p>
-
+![](images/complex%20graphics.png)
 
 
 For the frame rate and power consumption result in the different scenario, please refer to AN13509.
